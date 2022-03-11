@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div class="nav">
+        <select id="stroke-size">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <div class="clr active" data-clr="#000"></div>
+        <div class="clr" data-clr="#EF626C"></div>
+        <div class="clr" data-clr="#fdec03"></div>
+        <div class="clr" data-clr="#24d102"></div>
+        <div class="clr" data-clr="#fff"></div>
+        <a class="button clear">clear</a>
+        <a class="button save" download="Canvas.png">save</a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
